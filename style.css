@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Brown beige background */
+}
+
+header {
+    background-color: #964B00; /* Brown header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.proposal {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #F0E4CC; /* Light brown background */
+    border: 1px solid #786C3B; /* Brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proposal img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #786C3B; /* Brown button */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #964B00; /* Darker brown hover */
+}
+
+#yes-button {
+    background-color: #964B00; /* Brown for yes */
+}
+
+#yes-button:hover {
+    background-color: #786C3B; /* Lighter brown hover */
+}
+
+#no-button {
+    background-color: #964B00; /* Brown for no */
+}
+
+#no-button:hover {
+    background-color: #786C3B; /* Lighter brown hover */
+}
+
+#date-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F0E4CC; /* Light brown background */
+    border: 1px solid #786C3B; /* Brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#date-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#date-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #786C3B; /* Brown border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    background-color: #964B00; /* Brown button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#submit-button:hover {
+    background-color: #786C3B; /* Lighter brown hover */
+}
+
+#thank-you-message {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F0E4CC; /* Light brown background */
+    border: 1px solid #786C3B; /* Brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .proposal {
+        margin: 20px;
+        padding: 10px;
+    }
+    #date-form {
+        padding: 10px;
+    }
+    #date-form input {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    #submit-button {
+        padding: 10px;
+    }
+}

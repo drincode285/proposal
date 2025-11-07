@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Proposal Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Will You Be My Date?</h1>
+    </header>
+    <main>
+        <section class="proposal">
+            <img src="our-photo.jpg" alt="Your Photo">
+            <p>Dear Alexia,</p>
+            <p>From the moment I met you, I knew you were the one.</p>
+            <p>You make my life better in every way.</p>
+            <p>Will you be my partner in adventure?</p>
+            <button id="yes-button">Yes!</button>
+            <button id="no-button">No :(</button>
+            <div id="date-form" style="display: none;">
+                <h2>Let's plan our date!</h2>
+                <form id="date-form-form">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time"><br><br>
+                    <label for="place">Place:</label>
+                    <input type="text" id="place" name="place"><br><br>
+                    <button id="submit-button">Submit</button>
+                </form>
+            </div>
+            <div id="thank-you-message" style="display: none;">
+                <h2>Thank you so much, I love you!!! 🫶</h2>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
